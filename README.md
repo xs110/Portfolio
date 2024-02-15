@@ -1,5 +1,5 @@
 # Portfolio 
 
-To View the live site click [here &rarr;](https://portfolio-template.surge.sh)
+To View the live site click [here &rarr;](https://xs110.github.io/Portfolio/)
 
 
