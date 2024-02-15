@@ -468,7 +468,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 30%;
+    flex: 0 0 100%;
 }
 
 .work__list {
@@ -529,6 +529,32 @@ body:not(.user-is-tabbing) a:focus {
     .client__logo:not(:last-of-type) {
         margin-right: var(--gutter-medium);
     }
+}
+/* --------------------------------------- */
+/* ----- Education ----- */
+/* --------------------------------------- */
+
+.education__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+    border: 1px solid #f1f0f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.education__box h3 {
+    margin: 0;
+    font-size: 25px;
+    color: #f1f0f0;
+}
+
+.education__box p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #f1f0f0;
 }
 
 /* --------------------------------------- */
